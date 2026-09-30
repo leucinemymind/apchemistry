@@ -122,6 +122,13 @@ The jump in ionisation energy from $I_3$ to $I_4$ can be attributed to Al's posi
 
 \subsection*{Bond length diagram}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{bond_length}
+\end{figure}
+
+The optimal distance (most stable) depends on the radius of the atom. If the atom is bigger, the optimal distance will be longer (graph shifts to the right). The \textbf{average bond length} is found at the bottom of this curve.
+
 \subsection*{Energy effects in ionic compounds}
 
 \textbf{Lattice energy} is the change in energy that takes place when separated gaseous ions pack together to form an ionic solid.
@@ -142,6 +149,22 @@ Between NaF and \ce{MgF2}, Mg is slightly smaller than Na, but it has a higher c
 Each electron domain can have at most one sigma bond. All others are pi bonds.
 
 \subsection*{Electron and molecular geometries}
+
+Electron geometries are named by the first row in the table below and are determined by the number of electron domains only.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{molec_geom}
+\end{figure}
+
+\textbf{N.B. Row 3 and below can expand their octets. HONC = 1234 (hydrogen prefers 1 bond, oxygen 2, nitrogen 3, and carbon 4) and remembering to neutralise formal charge, especially on the central atom, are useful for drawing. The equation for formal charge is as follows:}
+
+\begin{equation}
+\label{eq:formalcharge}
+\text{formal charge} = \text{valence electrons} - \text{bonds} - \text{individual lone pair electrons}
+\end{equation}
+
+(For example, an oxygen atom with 4 lone pair electrons and 2 bonds has a formal charge of 0. An oxygen atom with 6 lone pair electrons and 1 bond has a formal charge of -1.)
 
 \section*{Intermolecular forces}
 
@@ -172,13 +195,39 @@ Between \textbf{two polar molecules only.}
 
 \subsection*{Physical effects of IMFs}
 
+IMFs influence solubility, melting point, boiling point, viscosity, and surface tension.
+
+\textbf{Solubility} depends on whether the IMFs between the solute particles and the solvent particles overcome the IMFs between the solute particles and themselves, as well as the solvent particles and themselves.
+
+\textbf{Boiling point and melting point} depend on the strength of the IMFs. If the IMFs are stronger, the boiling and melting points will both be elevated.
+
+\subsection*{Spectroscopy}
+
+The higher energy the wavelength, the deeper the penetration is into the molecule.
+
+From low energy to high energy:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{c c}
+\textbf{Form of radiation} & \textbf{Effects} \\
+microwave & molecular rotation \\
+infrared & molecular vibration (bond stretch) \\
+visible and ultraviolet & transfer of valence electrons \\
+X-ray & transfer of core electrons \\
+gamma rays & nuclear effects
+\end{tabular}
+\end{table}
+
 \subsection*{IMF-based separation techniques}
 
-\textbf{Chromatography} separates components of the eluent based on compounds' relative attraction to the stationary phase vs. the mobile phase.
+\textbf{Chromatography} separates components of the analyte based on compounds' relative attraction to the stationary phase vs. the mobile phase.
 
 There are three parts to chromatography---the \textbf{mobile phase}, \textbf{stationary phase}, and the \textbf{analyte}. The stationary phase is the fixed medium (e.g. paper), the mobile phase is the moving fluid (e.g. acetone), and the \textbf{analyte} is the sample moving along the stationary phase (e.g. ink).
 
 \textbf{How much an analyte moves depends on the IMFs formed with both the paper and the solvent.} If the analyte is insoluble in the solvent, it will not move; the more soluble it is, the higher it will move.
+
+\textbf{Distillation} separates compounds based on boiling points.
 
 \subsection*{Properties of solutions}
 
@@ -220,11 +269,48 @@ Every gas has the same average KE at a given temperature but different velocitie
 
 $$V \propto \sqrt{\text{mass}}$$
 
+\subsection*{Boltzmann distribution}
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.7\textwidth]{boltz}
+\end{figure}
+
+At the highest point of each curve is the \textbf{average velocity.} As the mass increases, the average velocity decreases.
+
 \subsection*{Empirical and molecular formulae}
+
+The empirical formula is the ratio between molecules in a compound.
+
+\textbf{Example:} A compound is 43.45\% phosphorus, 56.36\% oxygen, and has a mass of 283.88 g/mol. What are its empirical and molecular formulae?
+
+Assuming 100g:
+
+$$43.46 \lab{g} \cdot \frac{1 \lab{mol}}{30.96 \lab{g}} = 1.403 \lab{mol P}$$
+$$56.36 \lab{g} \cdot \frac{1 \lab{mol}}{16 \lab{g}} = 3.5225 \lab{mol O}$$
+
+1.403/1.403 = 1 mol P, 3.5225/1.403 = 2.5 mol O
+
+Multiply by 2 to eliminate the decimal---2 mol P, 5 mol O
+
+\fbox{\ce{P2O5}} is the empirical formula.
+
+To find the molecular formula, use the molar mass:
+
+Molar mass of \ce{P2O5} = 141.94 g/mol
+
+283.88/141.94 $\approx$ 2
+
+\fbox{\ce{P4O10}} is the molecular formula.
 
 \subsection*{Percent yield}
 
 \% of theoretical yield produced in a lab setting
+
+\begin{equation}
+\label{eq:percentyield}
+\text{percent yield} = \frac{\text{theoretical yield}}{\text{experimental yield}} \times 100\%
+\end{equation}
 
 \textbf{Example:} What is the max mass of \ce{MgSO4} $\cdot$ \ce{7H2O} formed if 100g \ce{MgCO3} is heated? If only 268g was produced, what was the percent yield?
 
